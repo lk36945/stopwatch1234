@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+      background-image: linear-gradient(to right, #ff9933, #ffffff, #138808);
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    #display {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin: 5px;
+    }
+
+    #startBtn {
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+
+    #startBtn:hover {
+      background-color: #218838;
+    }
+
+    #stopBtn {
+      background-color: #dc3545;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+
+    #stopBtn:hover {
+      background-color: #c82333;
+    }
+
+    #resetBtn {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+
+    #resetBtn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="display">00:00:00</h1>
+    <button id="startBtn" class="btn">Start</button>
+    <button id="stopBtn" class="btn">Stop</button>
+    <button id="resetBtn" class="btn">Reset</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
